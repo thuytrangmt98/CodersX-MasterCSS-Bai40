@@ -1,0 +1,20 @@
+.tab {
+	display: flex;
+	justify-content: center;
+}
+.tab .tab-item {
+	margin-right: 50px;
+	padding: 15px 0;
+}
+.tab-item span {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+}
+.tab .tab-posts {
+	border-top: 1px solid black;
+	color: rgba(var(--i1d,38,38,38),1);
+}
+.tab-igtv, .tab-saved, .tagged {
+	color: rgba(var(--f52,142,142,142),1);
+}

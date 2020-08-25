@@ -1,0 +1,83 @@
+.header {
+	border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    padding: 0 187px;
+}
+.header .header-content {
+	height: 53px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+.header-content .logo {
+	flex-basis: 200px;
+	height: 70%;
+}
+.logo .logo-image {
+	background-image: url("./1280px-Instagram_logo.svg.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 55%;
+    height: 100%;
+}
+.header-content .search-bar {
+	position: relative;
+}
+.header-content .search-bar input {
+	height: 27px;
+    padding: 6px 3px;
+    border-radius: 3px;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    text-align: center;
+    box-sizing: border-box;
+    width: 200px;
+}
+.search-bar input:focus {
+	text-align: left;
+	padding-left: 25px;
+	outline: none;
+    box-sizing: border-box;
+}
+.search-bar input::placeholder {
+    color: #8e8e8e94;
+}
+.search-bar input:focus + .fa-search {
+	top: 9px;
+    left: 8px;
+}
+.search-bar .fa-search {
+	position: absolute;
+    top: 8px;
+    left: 57px;
+    color: #8e8e8e94;    
+}
+.header-content .icons {
+	display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icons .avatar {
+	flex-basis: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons .avatar-circle {
+	height: 28px;
+    flex-basis: 100%;
+    border: 1px solid rgba(var(--i1d,38,38,38),1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons .avatar-image {	
+    background-image: url(./ava.jpg);
+    width: 22px;
+    height: 22px;
+    background-size: cover;
+    border-radius: 50%;
+}
